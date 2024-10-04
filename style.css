@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+}
+.container {
+    background-color: #1F2937;
+    font-family: Roboto, "Courier New", monospace;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-top: 0;
+    padding-left: 150px;
+}
+
+.headerlinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-left: auto;
+    padding-right: 150px;
+}
+
+.headerlinks div {
+    padding: 20px;
+}
+
+.main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    padding: 0;
+    margin: 0;
+    padding-left: 150px;
+}
+
+.secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 0;
+    margin: 0;
+    padding-left: 150px;
+}
+
+.secondaryheader {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 50px;
+}
+
+.picture {
+    background-color: #1F2937;
+    padding-bottom: 100px;
+}
+
+.sheadtext {
+    margin-right: 150px;
+}
