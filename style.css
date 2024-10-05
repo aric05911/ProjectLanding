@@ -59,8 +59,57 @@ body {
 .picture {
     background-color: #1F2937;
     padding-bottom: 100px;
+    padding-right: 50px;
 }
 
 .sheadtext {
     margin-right: 150px;
+}
+
+.bottomheader {
+    font-family: Roboto, "Courier New", monospace;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+    padding: 10px;
+    color: #1F2937;
+    font-family: Roboto, "Courier New", monospace;
+}
+
+.t {
+    padding-top: 200px;
+    font-size: 18px;
+    color: #1F2937;
+    font-family: Roboto, "Courier New", monospace;
+    padding-bottom: 100px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    background-color: #E5E7EB;
+    margin-top: 50px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+
+.sign {
+    padding-left: 600px;
+    padding-top: 50px;
 }
