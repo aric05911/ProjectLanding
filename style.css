@@ -78,8 +78,8 @@ body {
     display: flex;
     flex-direction: row;
     justify-content:space-evenly;
-    padding-left: 250px;
-    padding-right: 250px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .box {
@@ -119,11 +119,12 @@ body {
 .bluebutton {
     width: 1000px;
     height: 150px;
-    border-radius: 20px;
+    border-radius: 10px;
     color: white;
     background-color: #3882F6;
     margin:auto;
     margin-bottom: 100px;
+    margin-top: 50px;
 }
 
 .bluetext {
@@ -137,4 +138,17 @@ body {
 .subbluetext {
     font-family: "Roboto", sans-serif;
     padding-left: 100px;
+    padding-top: 5px;
+}
+
+.signupbutton {
+    font-size: 25px;
+    border-radius: 5px;
+    width: 130px;
+    height: 30px;
+    font-family: "Roboto", sans-serif;
+    border: solid white;
+    text-align: center;
+    margin-left: 750px;
+    margin-bottom: 50px;
 }
